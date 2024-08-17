@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-expand-lg{
+    margin-top: 0;
+}
+
+.navbar-brand{
+    font-size: 0;
+    background-image: url('../assets/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul.navbar-bar{
+    background-color: rgba(255, 192, 203, 0.2);
+}
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: grey;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  li{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .nav-item{
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .navbar{
+    background-color: rgba(244, 221, 225, 0.999);
+    height: 80px;
+    max-width: 100%;
+    margin-top: 0;
+  }
+  
+  div.container-fluid{
+    background-color: rgba(244, 221, 225, 0.999);
+    max-width: 100%;
+  }
+
+  .bg-pink{
+    background-color: rgba(255, 192, 203, 0.2);
+    background-image: url('../assets/retainer-pink.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 1rem;
+  }
+  
+  .bg-contact{
+    background-image: url('../assets/retainer.png');
+    background-position: left;
+    background-repeat: repeat;
+    padding: 1rem;
+  }
+  
+  a.btn.btn-home{
+    background-color: rgba(231, 115, 200, 0.954);
+    color: white;
+    display: block;
+    margin: auto;
+  }
+  
+  .container-contact{
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 5%;
+  }
+
+  footer{
+    background-color: rgba(128, 128, 128, 0.299);
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+  
+  ol,
+  ul {
+    list-style-type: none;
+  }
+  
+  @media (max-width: 1000px) {
+    .bg-pink {
+      background-image: none;
+    }
+  }
+  
+  .price-list{
+    display: block;
+  }
+  
+  .price-list ul{
+    margin: auto;
+  }
+  
+  .header-text{
+    text-align: left;
+  }
+  
